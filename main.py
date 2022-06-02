@@ -96,7 +96,6 @@ with open('file.txt', 'a') as insert_data:
 with open('file.txt', 'r') as read_data:
     numbers = read_data.readlines()
 
-print(numbers)
 with open('file.txt', 'a') as return_data:
     return_data.writelines("Обновлённый список \n")
     for i in numbers:
